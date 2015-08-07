@@ -2,3 +2,4 @@ language: php
 
 install:
   - composer install
+  - php artisan key:generate
